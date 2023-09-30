@@ -26,3 +26,12 @@ El modelo se entrena utilizando el clasificador Multinomial Naive Bayes en este 
 
 ```bash
 python train_model.py
+
+## Evaluación del Modelo
+El modelo se evalúa en un conjunto de prueba y se informa sobre su precisión y otras métricas relevantes.
+
+python evaluate_model.py
+
+## Uso
+Puedes utilizar el modelo entrenado para clasificar documentos de texto desconocidos mediante el siguiente comando:
+
